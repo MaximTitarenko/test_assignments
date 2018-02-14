@@ -1,0 +1,133 @@
+body{
+  font-size:16px;
+
+  padding:120px 0px 0px 0px;
+  z-index:0;
+  /*margin-top:100px;*/
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:'Oswald';
+}
+
+p {
+  font-family:'Comfortaa';
+  /*text-align: justify;*/
+}
+
+.navbar-default {
+  background:#f1f1f1;
+  font-family:'Comfortaa';
+}
+
+.navbar-brand{
+  font-size:20px;
+  font-weight:bold;
+}
+
+#showcase h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+#showcase p{
+  font-size:19px;
+}
+
+#showcase img{
+  width:90%;
+  margin-top:40px
+  /*margin-left:60px;*/
+}
+
+#showcase .showcase-right{
+  margin-top:0px;
+}
+
+.btn-primary{
+  margin-top:15px;
+  font-family:'Comfortaa';
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 25px;
+}
+
+#testimonial{
+  background:#f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top:60px;
+
+}
+
+#testimonial p{
+  font-size:47px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color:#000;
+}
+
+#testimonial p.customer{
+  font-size:20px;
+  color:#666;
+}
+
+#info1 img{
+  /*margin:0 auto;*/
+  /*vertical-align: text-top;*/
+  margin-top:40px;
+}
+
+#info1 {
+  margin-top:60px;
+/*  padding-top: 60px;*/
+}
+
+#info2{
+  margin-top:60px;
+}
+
+#contact{
+  margin-top:60px;
+}
+
+#contact .navbar-nav{
+  padding: 80px 100px
+}
+
+#contact .btn-social-ico{
+  width: 50px;
+}
+
+#contact .copyright{
+  /*padding:20px;*/
+  position: relative;
+  bottom: -30px;
+}
+
+#contact .btn-social-icon{
+    padding: 30px 30px;
+    font-size: 25px;
+}
+
+#contact .btn .fa{
+  position: absolute;
+  top:12px;
+}
+
+.jumbotron {
+    /*padding: 70px 30px 70px 30px;*/
+    margin: 0px auto;
+    background: #7986CB ;
+    color: floralwhite;
+}
+
+#contact_title{
+  font-family: 'Yanone Kaffeesatz' sans-serif;
+  font-size:35px;
+  margin-bottom: 20px;
+}
+
+#email {
+  color:white;
+}

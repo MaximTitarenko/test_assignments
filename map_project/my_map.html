@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <!-- ========================================================================= -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- ========================================================================= -->
+
+        <title>DSTU OSM Map</title>
+
+        <!-- ========================================================================= -->
+        <!-- СТИЛИ -->
+        <!-- ========================================================================= -->
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- leaflet-pack -->
+        <link href="css/leaflet/leaflet.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="http://makinacorpus.github.io/Leaflet.MeasureControl/leaflet-draw/dist/leaflet.draw.css" />
+        <link rel="stylesheet" href="http://makinacorpus.github.io/Leaflet.MeasureControl/leaflet.measurecontrol.css" />
+        <link href="css/leaflet/L.Control.MousePosition.css" rel="stylesheet">
+        <link href="css/leaflet/easy-button.css" rel="stylesheet"> 
+
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- мои стили -->
+        <link href="css/my/my_style_map.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!-- <div id="map"></div> -->
+
+        <div class="container-fluid">
+            <div class="mapbox">
+                <div class="row-fluid some" id="map">
+                </div>
+
+                    <div class="container">
+                <div class="jumbotron" id="jumbo">
+
+                        <div class="row col-xs-9">
+                            <p id="menu_title"><b>Интерактивное меню - шаблон</b></p>
+                        </div>
+                        <div class="row col-xs-3">
+                        </div>
+
+                        <div class="row col-xs-12" id="menu_content">
+                            <p style="font-size: 18px;">При нажатии на белку карта вернется в начальное положение</p>
+                        </div>
+                        <div> 
+                            <img onclick="map.setView([47.24010, 39.71067], 17)" src="img/map_icons/ico_squirrel_300.png">
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="row-fluid overlay">
+                    <div class="span1">
+                        <button class="btn" onclick="hideElem('jumbo')"">Скрыть</button>
+                    </div>
+                    <div class="span2">
+                        <button class="btn" onclick="displayElem('jumbo')"">Показать</button>
+                    </div>
+                </div>
+
+            </div>  
+        </div>
+
+
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- leaflet-pack -->
+        <script src="js/leaflet/leaflet.js"></script> 
+        <script src="js/leaflet/leaflet.draw.js"></script> 
+        <script src="js/leaflet/leaflet.measurecontrol.min.js"></script> 
+        <script src="js/leaflet/L.Control.MousePosition.js"></script> 
+        <script src="js/leaflet/easy-button.js"></script> 
+
+        <!-- мои скрипты -->
+        <script src="js/my/my_script_map.js"></script>
+        <script src="js/my/my_script_map_add_button.js"></script>
+        <script src="js/my/my_script_map_menu_hide.js"></script>
+
+        <!-- служебный скрипт -->
+        <script> 
+        	function myFunc1() {
+        	    alert();
+        	}
+        </script>
+
+    </body>
+</html>

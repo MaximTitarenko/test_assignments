@@ -1,0 +1,69 @@
+#map {
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.easy-button-container{
+  margin-top: 50px !important;
+}
+
+/*--------------------------------------------------*/
+
+.mapbox {
+    position: relative;
+}
+
+.mapbox .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 314159;
+    pointer-events: none;
+}
+
+.mapbox .overlay .btn {
+    pointer-events: initial;
+}
+
+#jumbo {
+
+    opacity: 0.75;
+
+    position: fixed;
+    top: 0;
+    right: 10px;
+
+    width: 400px;
+    height: 600px;
+}
+
+#jumbo img{
+    position: relative;
+    top: 70px;
+    right: 10px;
+}
+
+.btn {
+    background-color:white;
+    border:1px solid;
+    width: 100px;
+    height: 50px;
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+#menu_title {
+    position: relative;
+    top: -20px;
+    text-align: left; 
+    padding-bottom: 20px;
+}
+
+#menu_content {
+    width: 120%; 
+    margin-top: 20px;
+}
+/*--------------------------------------------------*/

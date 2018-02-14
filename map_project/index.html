@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <!-- ========================================================================= -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- ========================================================================= -->
+
+        <title>DSTU Project</title>
+
+        <!-- ========================================================================= -->
+        <!-- ШРИФТЫ -->
+        <!-- ========================================================================= -->
+
+        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Oswald|Comfortaa" rel="stylesheet" type="text/css">
+    
+
+        <!-- ========================================================================= -->
+        <!-- СТИЛИ -->
+        <!-- ========================================================================= -->
+
+        <!-- BOOTSRAP 3.3.7 СТИЛИ - ЗАГРУЗКА ИЗ СЕТИ: -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+        <!-- BOOTSRAP 3.3.7 СТИЛИ - ЗАГРУЗКА ИЗ ФАЙЛА: -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- ЗАГРУЗКА ПРОЧИХ СТИЛЕЙ: -->
+        <link href="css/bootstrap-social.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- ЗАГРУЗКА МОИХ СТИЛЕЙ: -->
+        <link href="css/my/my_style.css" rel="stylesheet">
+        <!-- ========================================================================= -->
+    </head>
+
+    <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Map Project with OpenStreetMap</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#top" onclick="scrollToTop();return false">Домой</a></li>
+            <li><a href="#info1">Инфо</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="showcase">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-6">
+            <div class="showcase-left">
+              <img src="img/finder1.jpg">
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6">
+            <div class="showcase-right">
+              <h1>Студенческий парк ДГТУ</h1>
+              <p>На территории парка расположены учебные корпуса университета, студенческие общежития, спортивные площадки и манеж. Центральные аллеи заасфальтированы и в ночное время освещены. Прогуливаясь по парку можно увидеть много голубей и других птиц около специально оборудованных кормушек ...<br>Все это, безусловно, безумно интересно. Но гораздо интереснее то, что на деревьях также можно увидеть множество пушистых белок.</p>
+            </div>
+            <a class="btn btn-primary btn-lg showcase-btn" href="my_map.html">Посмотреть на карте</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial">
+      <div class="container">
+        <p>"Если держать белку за хвост, то можно узнать о картографии много нового, что вы бы не смогли узнать при других условиях"</p>
+        <p class="customer">- Марк Твен (или нет)</p>
+      </div>
+    </section>
+
+    <section id="info1">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-6">
+            <div class="info-left">
+              <h2>ДГТУ сегодня</h2>
+              <p>Донской государственный технический университет (ДГТУ) – крупнейший на Юге России, динамично развивающийся научно-образовательный комплекс. ВУЗ реализует систему непрерывного образования, объединившую концепцию раннего творческого развития личности и практическую профессиональную подготовку выпускника. Университет вовлекает в образовательный процесс пятилетнего ребенка и выпускает профессионала, готового сразу по получении диплома включиться в производственный процесс.</br>Донской государственный технический университет со дня основания остается главным поставщиком квалифицированных кадров для экономики Ростовской области, выпуская специалистов-практиков, знания и компетенции которых отвечают актуальным запросам крупнейших промышленных предприятий региона.</p>
+              <a class="btn btn-primary btn-lg showcase-btn" href="https://donstu.ru/">Перейти на сайт</a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6">
+            <div class="info-right">
+              <img src="img/image22.jpg">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section id="info2">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 col-sm-6">
+            <div class="info-left">
+              <h2>Факт #1</h2>
+              <p>Сегодня в ДГТУ обучается более 40 тысяч студентов, работает более 1000 кандидатов и 230 докторов наук, реализуется более 100 направлений подготовки бакалавриата, специалитета, магистратуры, аспирантуры и докторантуры.<br>Ежегодно в ДГТУ обучается 2 000 зарубежных студентов. В рамках международного сотрудничества реализуется взаимодействие с 60 странами.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6">
+            <div class="info-right">
+              <h2>Факт #2</h2>
+              <p>Сегодня в ДГТУ работает 19 базовых кафедр. Среди партнеров вуза – крупнейшие компании Юга России: ПАО «Роствертол», ЗАО Медиагруппа «Южный регион», ООО «ПК «НЭВЗ», ООО «КЗ «Ростсельмаш». Доля выпускников ДГТУ в штате предприятий, с которыми открыты базовые кафедры, достигает 80%.<br>В 2016 году Министерство образования и науки РФ включило ДГТЦ в четверку наиболее успешных опорных вузов страны.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+    <footer class="jumbotron row-footer showcase-bottom">
+        <div class="container">
+            <div class="row">    
+
+                <div class="col-xs-6">
+                    <h3 id="contact_title">Наши контакты:</h3>
+                    <address>
+                      Площадь Гагарина 1,<br>
+                      Ростов-на-Дону, 344000,<br>
+                      Россия<br><br>
+                  <i class="fa fa-phone"></i>: 8 800 100-19-30<br>
+                  <i class="fa fa-fax"></i>: (863) 232-79-53<br>
+                  <i class="fa fa-envelope"></i>: 
+                                 <a href="mailto:reception@donstu.ru" id="email">reception@donstu.ru</a>
+                   </address>
+                </div>
+
+                <div class="col-xs-6">
+                    <div class="nav navbar-nav">
+                        <a class="btn btn-social-icon btn-vk" href="https://vk.com/donstu"><i class="fa fa-vk"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/donstu.ru"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/dstu_live/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/dstu_live/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="https://www.youtube.com/user/dstulive"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-xs-12">
+                    <p align=center class="copyright">© Copyright 2017</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+  </section>
+
+    <!-- ========================================================================= -->
+    <!-- СКРИПТЫ: -->
+    <!-- ========================================================================= -->
+    <!-- scrollreveal: -->
+    <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
+    <script src="js/scrollreveal.min.js"></script>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- jQuery - ЗАГРУЗКА ИЗ СЕТИ: -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script> -->
+    <!-- jQuery - ЗАГРУЗКА ИЗ ФАЙЛА: -->
+    <script src="js/jquery-3.2.1.js"></script>
+
+    <!-- BootsrapJS - ЗАГРУЗКА ИЗ СЕТИ: -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <!-- BootsrapJS - ЗАГРУЗКА ИЗ ФАЙЛА: -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ЗАГРУЗКА МОИХ СКРИПТОВ: -->
+    <script src="js/my/my_script_animation.js"></script>
+    <script src="js/my/my_script_scrolling.js"></script>
+    <script src="js/my/my_script_scrolling_to_top.js"></script>
+    <!-- ========================================================================= -->
+
+  </body>
+</html>
